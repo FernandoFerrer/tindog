@@ -1,0 +1,271 @@
+:root {
+  --color-1: #f44b66;
+  --color-2: #ff7f93;
+  --color-3: #ffb5c0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 2.5rem;
+  margin-bottom: 2%;
+  line-height: 1.5;
+}
+
+.navbar-styling {
+  background-color: var(--color-1);
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+}
+
+.header-color-1 {
+  background-color: var(--color-1);
+}
+.header-color-2 {
+  background-color: var(--color-2);
+}
+.header-color-3 {
+  background-color: var(--color-3);
+}
+
+.button-color-1 {
+  background-color: var(--color-1);
+  border-color: gray;
+}
+.button-color-1:hover {
+  background-color: #b6001d;
+}
+
+.button-color-2 {
+  background-color: var(--color-2);
+  border-color: gray;
+}
+.button-color-2:hover {
+  background-color: #b6001d;
+}
+
+.button-color-3 {
+  background-color: var(--color-3);
+  border-color: gray;
+}
+.button-color-3:hover {
+  background-color: #b6001d;
+}
+
+.testimonial-img {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+  -webkit-transition: .4s ease-in-out;
+  -moz-transition: .4s ease-in-out;
+  -o-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+.testimonial-img:hover {
+  width: 18%;
+}
+
+.feature-icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  margin-bottom: 1vh;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.check {
+  background: url("../images/check.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.check:hover {
+  background: url("../images/check_gray.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 80px;
+  height: 80px;
+}
+
+.diana {
+  background: url("../images/diana.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.diana:hover {
+  background: url("../images/diana_gray.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 80px;
+  height: 80px;
+}
+
+.corazon {
+  background: url("../images/corazon.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.corazon:hover {
+  background: url("../images/corazon_gray.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 80px;
+  height: 80px;
+}
+
+.center-elements {
+  text-align: center;
+}
+
+.nav-link {
+  padding-left: 2vw!important;
+}
+
+.container-fluid {
+  padding: 3% 3%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.phone {
+  -ms-transform: rotate(20deg); /* IE 9 */
+  transform: rotate(20deg);
+  padding-top: 5vh;
+  position: absolute;
+  -webkit-transition: .6s ease-in-out;
+  -moz-transition: .6s ease-in-out;
+  -o-transition: .6s ease-in-out;
+	transition: .6s ease-in-out;
+}
+.phone:hover {
+  -ms-transform: rotateZ(20deg); /* IE 9 */
+  transform: rotateZ(20deg);
+  -ms-transform: rotateY(20deg); /* IE 9 */
+  transform: rotateY(20deg);
+
+  padding-top: 5vh;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.social-media-div {
+  margin-bottom: 2%;
+}
+
+.bottom_button {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: rgba(255,255,255,0);
+  padding-bottom: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.bottom_button:hover {
+  color: rgba(255,255,255,0);
+}
+
+.twitter {
+  background-image: url("../images/twitter.png");
+}
+
+.facebook {
+  background-image: url("../images/facebook.png");
+}
+
+.instagram {
+  background-image: url("../images/instagram.png");
+}
+
+.email {
+  background-image: url("../images/email.png");
+}
+
+#title {
+  background-color: var(--color-1);
+  height: 95vh;
+}
+
+/* For smaller screens, increase title height */
+@media (max-width: 1000px) {
+  #title {
+    height: 1300px;
+  }
+  .phone {
+    -ms-transform: rotate(0deg); /* IE 9 */
+    transform: rotate(0deg);
+  }
+}
+
+#features {
+  padding: 7% 15%;
+  z-index: 1;
+  position: relative;
+  background-color: white;
+}
+
+#testimonials {
+
+  text-align: center;
+  background-color: var(--color-1);
+  color: white;
+}
+
+#press {
+  background-color: var(--color-1);
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#cta {
+  background-color: var(--color-1);
+  text-align: center;
+  color: white;
+  padding: 7% 15%;
+}
+
+#footer {
+  background-color: var(--color-1);
+  text-align: center;
+}
+
+#pricing {
+  text-align: center;
+  padding: 3%;
+}
+
+#h1-title {
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer {
+  background-color: white;
+  padding: 3% 4%;
+  padding-bottom: 1%;
+}
